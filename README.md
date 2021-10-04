@@ -42,6 +42,3 @@ Other GitHub sites useful for HSC SDD students:
 
 * Binary puzzle - old HSC question: https://github.com/bwattle/BinaryPuzzle Web: https://bwattle.github.io/BinaryPuzzle/
 
-* Array of records - 4 languages + a 12 term 1 assessment for the building of a pizza app: Repo: https://github.com/bwattle/arrRecords Web: https://bwattle.github.io/arrRecords/
-
-![image](https://user-images.githubusercontent.com/45184841/135802312-babc3115-983f-4189-a025-44523a9b1f0c.png)
