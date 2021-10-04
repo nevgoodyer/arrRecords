@@ -4,6 +4,15 @@ The html page at https://bwattle.github.io/arrRecords/ details the functionality
 
 A copy of the assessment task is at: https://github.com/bwattle/arrRecords/releases/download/v0.01-Doc/12SDD_A1-2022_Notification-AppsWithArraysOfRecords.docx
 
+
+Sample apps are:
+	o Student graduation booking:
+		§ Chloe: https://github.com/bwattle/arrRecords/releases/download/v0.02-VB/StudDB-Chloe-2019.exe
+		§ Jason: https://github.com/bwattle/arrRecords/releases/download/v0.03-VB/StudDB-Jason-2019.exe
+	o Pizza ordering system:
+Peter: https://github.com/bwattle/arrRecords/releases/download/v0.01-VB/Pizza-PeterLi-2019.exe (Note the “Help” button and separate page)
+
+
 Step by step docs:
 1. v0.10 Doc - Downloading Visual Studio
 https://github.com/bwattle/arrRecords/releases/download/v0.10-Word/ArrRec-00-VS-Download.docx
