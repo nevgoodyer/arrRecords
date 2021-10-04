@@ -6,11 +6,12 @@ A copy of the assessment task is at: https://github.com/bwattle/arrRecords/relea
 
 
 Sample apps are:
-	o Student graduation booking:
-		§ Chloe: https://github.com/bwattle/arrRecords/releases/download/v0.02-VB/StudDB-Chloe-2019.exe
-		§ Jason: https://github.com/bwattle/arrRecords/releases/download/v0.03-VB/StudDB-Jason-2019.exe
-	o Pizza ordering system:
-Peter: https://github.com/bwattle/arrRecords/releases/download/v0.01-VB/Pizza-PeterLi-2019.exe (Note the “Help” button and separate page)
+1. Student graduation booking:
+	* Chloe: https://github.com/bwattle/arrRecords/releases/download/v0.02-VB/StudDB-Chloe-2019.exe
+	* Jason: https://github.com/bwattle/arrRecords/releases/download/v0.03-VB/StudDB-Jason-2019.exe
+2. Pizza ordering system:
+	* Peter: https://github.com/bwattle/arrRecords/releases/download/v0.01-VB/Pizza-PeterLi-2019.exe (Note the “Help” button and separate page)
+
 
 
 Step by step docs:
