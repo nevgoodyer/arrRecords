@@ -49,9 +49,9 @@ Partial Class Pizza103
         Me.Label10 = New System.Windows.Forms.Label()
         Me.dteDelivery = New System.Windows.Forms.DateTimePicker()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtSuburb = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtStreet = New System.Windows.Forms.TextBox()
         Me.txtPhone = New System.Windows.Forms.MaskedTextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -164,7 +164,7 @@ Partial Class Pizza103
         Me.txtStList.FormattingEnabled = True
         Me.txtStList.Location = New System.Drawing.Point(36, 225)
         Me.txtStList.Name = "txtStList"
-        Me.txtStList.Size = New System.Drawing.Size(533, 160)
+        Me.txtStList.Size = New System.Drawing.Size(648, 160)
         Me.txtStList.TabIndex = 15
         Me.txtStList.TabStop = False
         '
@@ -180,7 +180,6 @@ Partial Class Pizza103
         'radThin
         '
         Me.radThin.AutoSize = True
-        Me.radThin.Checked = True
         Me.radThin.Location = New System.Drawing.Point(40, 135)
         Me.radThin.Name = "radThin"
         Me.radThin.Size = New System.Drawing.Size(46, 17)
@@ -196,6 +195,7 @@ Partial Class Pizza103
         Me.radCrispy.Name = "radCrispy"
         Me.radCrispy.Size = New System.Drawing.Size(53, 17)
         Me.radCrispy.TabIndex = 8
+        Me.radCrispy.TabStop = True
         Me.radCrispy.Text = "Crispy"
         Me.radCrispy.UseVisualStyleBackColor = True
         '
@@ -206,6 +206,7 @@ Partial Class Pizza103
         Me.radFat.Name = "radFat"
         Me.radFat.Size = New System.Drawing.Size(40, 17)
         Me.radFat.TabIndex = 9
+        Me.radFat.TabStop = True
         Me.radFat.Text = "Fat"
         Me.radFat.UseVisualStyleBackColor = True
         '
@@ -313,12 +314,12 @@ Partial Class Pizza103
         Me.Label11.TabIndex = 33
         Me.Label11.Text = "Subub"
         '
-        'TextBox1
+        'txtSuburb
         '
-        Me.TextBox1.Location = New System.Drawing.Point(142, 87)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 5
+        Me.txtSuburb.Location = New System.Drawing.Point(142, 87)
+        Me.txtSuburb.Name = "txtSuburb"
+        Me.txtSuburb.Size = New System.Drawing.Size(100, 20)
+        Me.txtSuburb.TabIndex = 5
         '
         'Label12
         '
@@ -329,12 +330,12 @@ Partial Class Pizza103
         Me.Label12.TabIndex = 31
         Me.Label12.Text = "Street address"
         '
-        'TextBox2
+        'txtStreet
         '
-        Me.TextBox2.Location = New System.Drawing.Point(36, 87)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.txtStreet.Location = New System.Drawing.Point(36, 87)
+        Me.txtStreet.Name = "txtStreet"
+        Me.txtStreet.Size = New System.Drawing.Size(100, 20)
+        Me.txtStreet.TabIndex = 4
         '
         'txtPhone
         '
@@ -453,11 +454,11 @@ Partial Class Pizza103
         Me.CheckBox5.Text = "Paid"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
-        'Pizza102
+        'Pizza103
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(611, 391)
+        Me.ClientSize = New System.Drawing.Size(728, 391)
         Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.txtTop4)
         Me.Controls.Add(Me.txtTop3)
@@ -472,9 +473,9 @@ Partial Class Pizza103
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.txtPhone)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtSuburb)
         Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtStreet)
         Me.Controls.Add(Me.dteDelivery)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -501,8 +502,8 @@ Partial Class Pizza103
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFirstName)
-        Me.Name = "Pizza102"
-        Me.Text = "v1.02 Pizza ordering app"
+        Me.Name = "Pizza103"
+        Me.Text = "v1.03 Pizza ordering app"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -537,9 +538,9 @@ Partial Class Pizza103
     Friend WithEvents Label10 As Label
     Friend WithEvents dteDelivery As DateTimePicker
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtSuburb As TextBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtStreet As TextBox
     Friend WithEvents txtPhone As MaskedTextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
