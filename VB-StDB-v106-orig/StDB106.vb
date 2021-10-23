@@ -1,4 +1,4 @@
-﻿Public Class StDB107
+﻿Public Class StDB106
     'set up a record or "class" for a student
     Class STUDENT
         Public studID As Int16
@@ -7,8 +7,6 @@
         Public DOB As Date
         Public gender As Char
         Public avMk As Single
-        Public phoneNo As String
-        Public paid As Single
     End Class
     Dim students(9) As STUDENT
     Dim studentCount As Integer = 0
@@ -25,32 +23,24 @@
         students(0).DOB = "9/6/63"
         students(0).gender = "m"
         students(0).avMk = 78.2
-        students(0).phoneNo = "1234567890"
-        students(0).paid = False
         students(1).studID = 2
         students(1).firstname = "Jennifer"
         students(1).lastname = "Lawrence"
         students(1).DOB = "15/8/90"
         students(1).gender = "f"
         students(1).avMk = 88.2
-        students(1).phoneNo = "1111111111"
-        students(1).paid = True
         students(2).studID = 3
         students(2).firstname = "George"
         students(2).lastname = "Clooney"
         students(2).DOB = "6/5/61"
         students(2).gender = "m"
         students(2).avMk = 68.2
-        students(2).phoneNo = "xxxxxxxxx"
-        students(2).paid = False
         students(3).studID = 4
         students(3).firstname = "Scarlett"
         students(3).lastname = "Johansson"
         students(3).DOB = "22/11/84"
         students(3).gender = "f"
         students(3).avMk = 72.2
-        students(3).phoneNo = "1234000000"
-        students(3).paid = True
         'set the student count to the number of students which have been entered
         studentCount = 4
         displayList()
@@ -63,8 +53,6 @@
         students(studentCount).DOB = txtDOB.Text
         students(studentCount).gender = txtGender.Text
         students(studentCount).avMk = txtAvMk.Text
-        students(studentCount).phoneNo = txtPhone.Text
-        students(studentCount).paid = chkPaid.Checked
         studentCount += 1
         'return text boxes to blank ready for next entry
         txtFirstName.Text = ""
@@ -72,8 +60,6 @@
         txtDOB.Text = ""
         txtGender.Text = ""
         txtAvMk.Text = ""
-        txtPhone.Text = ""
-        chkPaid.Checked = False
         displayList()
     End Sub
     Private Sub displayList()
@@ -83,8 +69,7 @@
         For i = 0 To studentCount - 1
             txtStList.Items.Add(students(i).studID & " - " & students(i).firstname & " - " &
                               students(i).lastname & " - " & students(i).DOB & " - " &
-                              students(i).gender & " - " & students(i).avMk & "." &
-            students(i).phoneNo & " - " & students(i).paid & ".")
+                              students(i).gender & " - " & students(i).avMk & ".")
         Next
     End Sub
 End Class

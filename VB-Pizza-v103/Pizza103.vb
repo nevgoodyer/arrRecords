@@ -47,7 +47,6 @@
         txtTop3.Text = FormatCurrency(top3price)
         txtTop4.Text = FormatCurrency(top4price)
 
-
         'load 4 test records
         students(0).studID = 1
         students(0).firstName = "Johnny"

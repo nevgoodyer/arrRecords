@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class StDB107
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class StDB106
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class StDB107
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -36,9 +36,6 @@ Partial Class StDB107
         Me.btnAddStud = New System.Windows.Forms.Button()
         Me.txtStList = New System.Windows.Forms.ListBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.chkPaid = New System.Windows.Forms.CheckBox()
-        Me.txtPhone = New System.Windows.Forms.MaskedTextBox()
         Me.SuspendLayout()
         '
         'txtFirstName
@@ -80,7 +77,7 @@ Partial Class StDB107
         Me.txtLastName.Location = New System.Drawing.Point(142, 83)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(100, 20)
-        Me.txtLastName.TabIndex = 1
+        Me.txtLastName.TabIndex = 3
         '
         'Label4
         '
@@ -96,7 +93,7 @@ Partial Class StDB107
         Me.txtDOB.Location = New System.Drawing.Point(248, 83)
         Me.txtDOB.Name = "txtDOB"
         Me.txtDOB.Size = New System.Drawing.Size(100, 20)
-        Me.txtDOB.TabIndex = 2
+        Me.txtDOB.TabIndex = 5
         '
         'Label5
         '
@@ -112,7 +109,7 @@ Partial Class StDB107
         Me.txtGender.Location = New System.Drawing.Point(354, 83)
         Me.txtGender.Name = "txtGender"
         Me.txtGender.Size = New System.Drawing.Size(100, 20)
-        Me.txtGender.TabIndex = 3
+        Me.txtGender.TabIndex = 7
         '
         'Label6
         '
@@ -128,7 +125,7 @@ Partial Class StDB107
         Me.txtAvMk.Location = New System.Drawing.Point(460, 83)
         Me.txtAvMk.Name = "txtAvMk"
         Me.txtAvMk.Size = New System.Drawing.Size(100, 20)
-        Me.txtAvMk.TabIndex = 4
+        Me.txtAvMk.TabIndex = 9
         '
         'btnAddStud
         '
@@ -156,43 +153,11 @@ Partial Class StDB107
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "List of entered students (for testing)"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(251, 112)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(1, 0, 1, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(38, 13)
-        Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Phone"
-        '
-        'chkPaid
-        '
-        Me.chkPaid.AutoSize = True
-        Me.chkPaid.Location = New System.Drawing.Point(372, 129)
-        Me.chkPaid.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
-        Me.chkPaid.Name = "chkPaid"
-        Me.chkPaid.Size = New System.Drawing.Size(47, 17)
-        Me.chkPaid.TabIndex = 6
-        Me.chkPaid.Text = "Paid"
-        Me.chkPaid.UseVisualStyleBackColor = True
-        '
-        'txtPhone
-        '
-        Me.txtPhone.Location = New System.Drawing.Point(248, 129)
-        Me.txtPhone.Mask = "0000-000-000"
-        Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(100, 20)
-        Me.txtPhone.TabIndex = 5
-        '
-        'StDB107
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 405)
-        Me.Controls.Add(Me.txtPhone)
-        Me.Controls.Add(Me.chkPaid)
-        Me.Controls.Add(Me.Label7)
+        Me.ClientSize = New System.Drawing.Size(611, 391)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.txtStList)
         Me.Controls.Add(Me.btnAddStud)
@@ -207,7 +172,7 @@ Partial Class StDB107
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFirstName)
-        Me.Name = "StDB107"
+        Me.Name = "Form1"
         Me.Text = "v1.06 Student Array of Records"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -230,7 +195,4 @@ Partial Class StDB107
 
     Friend WithEvents txtStList As ListBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents chkPaid As CheckBox
-    Friend WithEvents txtPhone As MaskedTextBox
 End Class
