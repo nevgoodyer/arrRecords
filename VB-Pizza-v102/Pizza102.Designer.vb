@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Pizza101
+Partial Class Pizza102
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -38,10 +38,10 @@ Partial Class Pizza101
         Me.radThin = New System.Windows.Forms.RadioButton()
         Me.radCrispy = New System.Windows.Forms.RadioButton()
         Me.radFat = New System.Windows.Forms.RadioButton()
-        Me.chkAnchovies = New System.Windows.Forms.CheckBox()
-        Me.chkOlives = New System.Windows.Forms.CheckBox()
-        Me.chkCabanossi = New System.Windows.Forms.CheckBox()
-        Me.chkParmesam = New System.Windows.Forms.CheckBox()
+        Me.chkTop1 = New System.Windows.Forms.CheckBox()
+        Me.chkTop2 = New System.Windows.Forms.CheckBox()
+        Me.chkTop3 = New System.Windows.Forms.CheckBox()
+        Me.chkTop4 = New System.Windows.Forms.CheckBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.cboHour = New System.Windows.Forms.ComboBox()
         Me.cboMinute = New System.Windows.Forms.ComboBox()
@@ -106,7 +106,7 @@ Partial Class Pizza101
         Me.txtLastName.Location = New System.Drawing.Point(142, 51)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(100, 20)
-        Me.txtLastName.TabIndex = 3
+        Me.txtLastName.TabIndex = 1
         '
         'Label4
         '
@@ -131,7 +131,7 @@ Partial Class Pizza101
         Me.txtPostcode.Location = New System.Drawing.Point(248, 87)
         Me.txtPostcode.Name = "txtPostcode"
         Me.txtPostcode.Size = New System.Drawing.Size(100, 20)
-        Me.txtPostcode.TabIndex = 7
+        Me.txtPostcode.TabIndex = 6
         '
         'Label6
         '
@@ -147,14 +147,15 @@ Partial Class Pizza101
         Me.txtQuantity.Location = New System.Drawing.Point(469, 87)
         Me.txtQuantity.Name = "txtQuantity"
         Me.txtQuantity.Size = New System.Drawing.Size(100, 20)
-        Me.txtQuantity.TabIndex = 9
+        Me.txtQuantity.TabIndex = 15
+        Me.txtQuantity.Text = "1"
         '
         'btnAdd
         '
         Me.btnAdd.Location = New System.Drawing.Point(485, 196)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(104, 23)
-        Me.btnAdd.TabIndex = 11
+        Me.btnAdd.TabIndex = 20
         Me.btnAdd.Text = "Add Order"
         Me.btnAdd.UseVisualStyleBackColor = True
         '
@@ -165,6 +166,7 @@ Partial Class Pizza101
         Me.txtStList.Name = "txtStList"
         Me.txtStList.Size = New System.Drawing.Size(533, 160)
         Me.txtStList.TabIndex = 15
+        Me.txtStList.TabStop = False
         '
         'Label8
         '
@@ -178,10 +180,11 @@ Partial Class Pizza101
         'radThin
         '
         Me.radThin.AutoSize = True
+        Me.radThin.Checked = True
         Me.radThin.Location = New System.Drawing.Point(40, 135)
         Me.radThin.Name = "radThin"
         Me.radThin.Size = New System.Drawing.Size(46, 17)
-        Me.radThin.TabIndex = 17
+        Me.radThin.TabIndex = 7
         Me.radThin.TabStop = True
         Me.radThin.Text = "Thin"
         Me.radThin.UseVisualStyleBackColor = True
@@ -192,8 +195,7 @@ Partial Class Pizza101
         Me.radCrispy.Location = New System.Drawing.Point(40, 158)
         Me.radCrispy.Name = "radCrispy"
         Me.radCrispy.Size = New System.Drawing.Size(53, 17)
-        Me.radCrispy.TabIndex = 18
-        Me.radCrispy.TabStop = True
+        Me.radCrispy.TabIndex = 8
         Me.radCrispy.Text = "Crispy"
         Me.radCrispy.UseVisualStyleBackColor = True
         '
@@ -203,50 +205,49 @@ Partial Class Pizza101
         Me.radFat.Location = New System.Drawing.Point(40, 181)
         Me.radFat.Name = "radFat"
         Me.radFat.Size = New System.Drawing.Size(40, 17)
-        Me.radFat.TabIndex = 19
-        Me.radFat.TabStop = True
+        Me.radFat.TabIndex = 9
         Me.radFat.Text = "Fat"
         Me.radFat.UseVisualStyleBackColor = True
         '
-        'chkAnchovies
+        'chkTop1
         '
-        Me.chkAnchovies.AutoSize = True
-        Me.chkAnchovies.Location = New System.Drawing.Point(153, 117)
-        Me.chkAnchovies.Name = "chkAnchovies"
-        Me.chkAnchovies.Size = New System.Drawing.Size(76, 17)
-        Me.chkAnchovies.TabIndex = 20
-        Me.chkAnchovies.Text = "Anchovies"
-        Me.chkAnchovies.UseVisualStyleBackColor = True
+        Me.chkTop1.AutoSize = True
+        Me.chkTop1.Location = New System.Drawing.Point(153, 117)
+        Me.chkTop1.Name = "chkTop1"
+        Me.chkTop1.Size = New System.Drawing.Size(76, 17)
+        Me.chkTop1.TabIndex = 10
+        Me.chkTop1.Text = "Anchovies"
+        Me.chkTop1.UseVisualStyleBackColor = True
         '
-        'chkOlives
+        'chkTop2
         '
-        Me.chkOlives.AutoSize = True
-        Me.chkOlives.Location = New System.Drawing.Point(153, 139)
-        Me.chkOlives.Name = "chkOlives"
-        Me.chkOlives.Size = New System.Drawing.Size(55, 17)
-        Me.chkOlives.TabIndex = 21
-        Me.chkOlives.Text = "Olives"
-        Me.chkOlives.UseVisualStyleBackColor = True
+        Me.chkTop2.AutoSize = True
+        Me.chkTop2.Location = New System.Drawing.Point(153, 139)
+        Me.chkTop2.Name = "chkTop2"
+        Me.chkTop2.Size = New System.Drawing.Size(55, 17)
+        Me.chkTop2.TabIndex = 11
+        Me.chkTop2.Text = "Olives"
+        Me.chkTop2.UseVisualStyleBackColor = True
         '
-        'chkCabanossi
+        'chkTop3
         '
-        Me.chkCabanossi.AutoSize = True
-        Me.chkCabanossi.Location = New System.Drawing.Point(153, 161)
-        Me.chkCabanossi.Name = "chkCabanossi"
-        Me.chkCabanossi.Size = New System.Drawing.Size(75, 17)
-        Me.chkCabanossi.TabIndex = 22
-        Me.chkCabanossi.Text = "Cabanossi"
-        Me.chkCabanossi.UseVisualStyleBackColor = True
+        Me.chkTop3.AutoSize = True
+        Me.chkTop3.Location = New System.Drawing.Point(153, 161)
+        Me.chkTop3.Name = "chkTop3"
+        Me.chkTop3.Size = New System.Drawing.Size(75, 17)
+        Me.chkTop3.TabIndex = 12
+        Me.chkTop3.Text = "Cabanossi"
+        Me.chkTop3.UseVisualStyleBackColor = True
         '
-        'chkParmesam
+        'chkTop4
         '
-        Me.chkParmesam.AutoSize = True
-        Me.chkParmesam.Location = New System.Drawing.Point(153, 182)
-        Me.chkParmesam.Name = "chkParmesam"
-        Me.chkParmesam.Size = New System.Drawing.Size(73, 17)
-        Me.chkParmesam.TabIndex = 23
-        Me.chkParmesam.Text = "Parmesan"
-        Me.chkParmesam.UseVisualStyleBackColor = True
+        Me.chkTop4.AutoSize = True
+        Me.chkTop4.Location = New System.Drawing.Point(153, 182)
+        Me.chkTop4.Name = "chkTop4"
+        Me.chkTop4.Size = New System.Drawing.Size(73, 17)
+        Me.chkTop4.TabIndex = 13
+        Me.chkTop4.Text = "Parmesan"
+        Me.chkTop4.UseVisualStyleBackColor = True
         '
         'Label7
         '
@@ -259,19 +260,24 @@ Partial Class Pizza101
         '
         'cboHour
         '
+        Me.cboHour.AutoCompleteCustomSource.AddRange(New String() {"10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"})
         Me.cboHour.FormattingEnabled = True
+        Me.cboHour.Items.AddRange(New Object() {"10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"})
         Me.cboHour.Location = New System.Drawing.Point(375, 172)
         Me.cboHour.Name = "cboHour"
         Me.cboHour.Size = New System.Drawing.Size(69, 21)
-        Me.cboHour.TabIndex = 25
+        Me.cboHour.TabIndex = 17
+        Me.cboHour.Text = "01"
         '
         'cboMinute
         '
         Me.cboMinute.FormattingEnabled = True
+        Me.cboMinute.Items.AddRange(New Object() {"00", "15", "30", "45"})
         Me.cboMinute.Location = New System.Drawing.Point(477, 172)
         Me.cboMinute.Name = "cboMinute"
         Me.cboMinute.Size = New System.Drawing.Size(76, 21)
-        Me.cboMinute.TabIndex = 26
+        Me.cboMinute.TabIndex = 18
+        Me.cboMinute.Text = "00"
         '
         'Label9
         '
@@ -296,7 +302,7 @@ Partial Class Pizza101
         Me.dteDelivery.Location = New System.Drawing.Point(375, 133)
         Me.dteDelivery.Name = "dteDelivery"
         Me.dteDelivery.Size = New System.Drawing.Size(200, 20)
-        Me.dteDelivery.TabIndex = 29
+        Me.dteDelivery.TabIndex = 16
         '
         'Label11
         '
@@ -312,7 +318,7 @@ Partial Class Pizza101
         Me.TextBox1.Location = New System.Drawing.Point(142, 87)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 32
+        Me.TextBox1.TabIndex = 5
         '
         'Label12
         '
@@ -328,7 +334,7 @@ Partial Class Pizza101
         Me.TextBox2.Location = New System.Drawing.Point(36, 87)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 30
+        Me.TextBox2.TabIndex = 4
         '
         'txtPhone
         '
@@ -336,7 +342,7 @@ Partial Class Pizza101
         Me.txtPhone.Mask = "0000-000-000"
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(97, 20)
-        Me.txtPhone.TabIndex = 34
+        Me.txtPhone.TabIndex = 2
         '
         'Label13
         '
@@ -367,37 +373,37 @@ Partial Class Pizza101
         '
         'txtTop1
         '
-        Me.txtTop1.Location = New System.Drawing.Point(119, 111)
+        Me.txtTop1.Location = New System.Drawing.Point(111, 111)
         Me.txtTop1.Name = "txtTop1"
         Me.txtTop1.ReadOnly = True
-        Me.txtTop1.Size = New System.Drawing.Size(31, 20)
+        Me.txtTop1.Size = New System.Drawing.Size(39, 20)
         Me.txtTop1.TabIndex = 38
         Me.txtTop1.TabStop = False
         '
         'txtTop2
         '
-        Me.txtTop2.Location = New System.Drawing.Point(119, 133)
+        Me.txtTop2.Location = New System.Drawing.Point(111, 133)
         Me.txtTop2.Name = "txtTop2"
         Me.txtTop2.ReadOnly = True
-        Me.txtTop2.Size = New System.Drawing.Size(31, 20)
+        Me.txtTop2.Size = New System.Drawing.Size(39, 20)
         Me.txtTop2.TabIndex = 38
         Me.txtTop2.TabStop = False
         '
         'txtTop3
         '
-        Me.txtTop3.Location = New System.Drawing.Point(119, 155)
+        Me.txtTop3.Location = New System.Drawing.Point(111, 155)
         Me.txtTop3.Name = "txtTop3"
         Me.txtTop3.ReadOnly = True
-        Me.txtTop3.Size = New System.Drawing.Size(31, 20)
+        Me.txtTop3.Size = New System.Drawing.Size(39, 20)
         Me.txtTop3.TabIndex = 38
         Me.txtTop3.TabStop = False
         '
         'txtTop4
         '
-        Me.txtTop4.Location = New System.Drawing.Point(119, 177)
+        Me.txtTop4.Location = New System.Drawing.Point(111, 177)
         Me.txtTop4.Name = "txtTop4"
         Me.txtTop4.ReadOnly = True
-        Me.txtTop4.Size = New System.Drawing.Size(31, 20)
+        Me.txtTop4.Size = New System.Drawing.Size(39, 20)
         Me.txtTop4.TabIndex = 38
         Me.txtTop4.TabStop = False
         '
@@ -443,11 +449,11 @@ Partial Class Pizza101
         Me.CheckBox5.Location = New System.Drawing.Point(252, 201)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(47, 17)
-        Me.CheckBox5.TabIndex = 39
+        Me.CheckBox5.TabIndex = 19
         Me.CheckBox5.Text = "Paid"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
-        'Pizza101
+        'Pizza102
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -475,10 +481,10 @@ Partial Class Pizza101
         Me.Controls.Add(Me.cboMinute)
         Me.Controls.Add(Me.cboHour)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.chkParmesam)
-        Me.Controls.Add(Me.chkCabanossi)
-        Me.Controls.Add(Me.chkOlives)
-        Me.Controls.Add(Me.chkAnchovies)
+        Me.Controls.Add(Me.chkTop4)
+        Me.Controls.Add(Me.chkTop3)
+        Me.Controls.Add(Me.chkTop2)
+        Me.Controls.Add(Me.chkTop1)
         Me.Controls.Add(Me.radFat)
         Me.Controls.Add(Me.radCrispy)
         Me.Controls.Add(Me.radThin)
@@ -495,8 +501,8 @@ Partial Class Pizza101
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFirstName)
-        Me.Name = "Pizza101"
-        Me.Text = "v1.01 Pizza ordering app"
+        Me.Name = "Pizza102"
+        Me.Text = "v1.02 Pizza ordering app"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -520,10 +526,10 @@ Partial Class Pizza101
     Friend WithEvents radThin As RadioButton
     Friend WithEvents radCrispy As RadioButton
     Friend WithEvents radFat As RadioButton
-    Friend WithEvents chkAnchovies As CheckBox
-    Friend WithEvents chkOlives As CheckBox
-    Friend WithEvents chkCabanossi As CheckBox
-    Friend WithEvents chkParmesam As CheckBox
+    Friend WithEvents chkTop1 As CheckBox
+    Friend WithEvents chkTop2 As CheckBox
+    Friend WithEvents chkTop3 As CheckBox
+    Friend WithEvents chkTop4 As CheckBox
     Friend WithEvents Label7 As Label
     Friend WithEvents cboHour As ComboBox
     Friend WithEvents cboMinute As ComboBox
