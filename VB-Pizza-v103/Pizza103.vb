@@ -135,8 +135,8 @@
         txtPostcode.Text = ""
         txtQuantity.Text = 1
         dteDelivery.Text = ""
-        cboHour.Text = ""
-        cboMinute.Text = ""
+        cboHour.Text = "01"
+        cboMinute.Text = "00"
         radThin.Checked = False
         radCrispy.Checked = False
         radFat.Checked = False
@@ -205,11 +205,11 @@
         CalcTotalPrice()
     End Sub
 
-    'Private Sub radThin_CheckedChanged(sender As Object, e As EventArgs) Handles radThin.CheckedChanged
-    '    If radThin.Checked Then
-    '        students(studentCount).pizzaBase = "Thin"
-    '    End If
-    'End Sub
+    Private Sub radThin_CheckedChanged(sender As Object, e As EventArgs) Handles radThin.CheckedChanged
+        If radThin.Checked Then
+            students(studentCount).pizzaBase = "Thin"
+        End If
+    End Sub
 
     Private Sub radCrispy_CheckedChanged(sender As Object, e As EventArgs) Handles radCrispy.CheckedChanged
         If radCrispy.Checked Then
@@ -217,9 +217,9 @@
         End If
     End Sub
 
-    'Private Sub radFat_CheckedChanged(sender As Object, e As EventArgs) Handles radFat.CheckedChanged
-    '    If radFat.Checked Then
-    '        students(studentCount).pizzaBase = "Fat"
-    '    End If
-    'End Sub
+    Private Sub radFat_CheckedChanged(sender As Object, e As EventArgs) Handles radFat.CheckedChanged
+        If radFat.Checked Then
+            students(studentCount).pizzaBase = "Fat"
+        End If
+    End Sub
 End Class

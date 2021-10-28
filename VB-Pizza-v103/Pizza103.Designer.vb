@@ -374,39 +374,47 @@ Partial Class Pizza103
         '
         'txtTop1
         '
-        Me.txtTop1.Location = New System.Drawing.Point(111, 111)
+        Me.txtTop1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtTop1.Location = New System.Drawing.Point(111, 118)
         Me.txtTop1.Name = "txtTop1"
         Me.txtTop1.ReadOnly = True
-        Me.txtTop1.Size = New System.Drawing.Size(39, 20)
+        Me.txtTop1.Size = New System.Drawing.Size(39, 13)
         Me.txtTop1.TabIndex = 38
         Me.txtTop1.TabStop = False
+        Me.txtTop1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTop2
         '
-        Me.txtTop2.Location = New System.Drawing.Point(111, 133)
+        Me.txtTop2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtTop2.Location = New System.Drawing.Point(111, 140)
         Me.txtTop2.Name = "txtTop2"
         Me.txtTop2.ReadOnly = True
-        Me.txtTop2.Size = New System.Drawing.Size(39, 20)
+        Me.txtTop2.Size = New System.Drawing.Size(39, 13)
         Me.txtTop2.TabIndex = 38
         Me.txtTop2.TabStop = False
+        Me.txtTop2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTop3
         '
-        Me.txtTop3.Location = New System.Drawing.Point(111, 155)
+        Me.txtTop3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtTop3.Location = New System.Drawing.Point(111, 162)
         Me.txtTop3.Name = "txtTop3"
         Me.txtTop3.ReadOnly = True
-        Me.txtTop3.Size = New System.Drawing.Size(39, 20)
+        Me.txtTop3.Size = New System.Drawing.Size(39, 13)
         Me.txtTop3.TabIndex = 38
         Me.txtTop3.TabStop = False
+        Me.txtTop3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTop4
         '
-        Me.txtTop4.Location = New System.Drawing.Point(111, 177)
+        Me.txtTop4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtTop4.Location = New System.Drawing.Point(111, 184)
         Me.txtTop4.Name = "txtTop4"
         Me.txtTop4.ReadOnly = True
-        Me.txtTop4.Size = New System.Drawing.Size(39, 20)
+        Me.txtTop4.Size = New System.Drawing.Size(39, 13)
         Me.txtTop4.TabIndex = 38
         Me.txtTop4.TabStop = False
+        Me.txtTop4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtToppedPrice
         '
